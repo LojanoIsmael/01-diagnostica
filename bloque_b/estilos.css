@@ -10,3 +10,23 @@
  */
 
 /* TODO: Escribe aquí tus reglas de estilos CSS */
+
+#encabezado{
+    color: white;
+    background-color: gray;
+    text-align: center;
+}
+
+.seccion{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.fecha{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid black ;
+    color: white;
+}

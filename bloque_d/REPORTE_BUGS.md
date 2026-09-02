@@ -1,27 +1,27 @@
 # 🐛 Reporte de Bugs Encontrados y Corregidos (Bloque D)
-**Estudiante:** [Escribe tu Nombre y Apellido]  
-**Paralelo:** [E1 / E2] | **Fecha:** [DD/MM/2026]  
+**Estudiante:** [Ismael Lojano]  
+**Paralelo:** [E1 ] | **Fecha:** [2/9/2026]  
 
 ---
 
 ## 1. 🔍 Bug de HTML Encontrado (D1)
-- **¿Qué fallaba?:** <!-- TODO: Describe qué elemento HTML estaba roto o faltante -->
-- **Causa Raíz:** <!-- TODO: Explica por qué generaba el fallo -->
-- **Solución Aplicada:** <!-- TODO: Explica cómo lo corregiste -->
+- **¿Qué fallaba?:** <!-- El elemento <header> no estaba cerrado correctamente. Además, el segundo input no tenía el id="nota2" y el botón no tenía un ID -->
+- **Causa Raíz:** <!-- La estructura HTML estaba incompleta y JavaScript no podía encontrar correctamente algunos elementos -->
+- **Solución Aplicada:** <!-- Se cerró correctamente el <header>, se agregó id="nota2" al segundo input y id="btn-calcular" al botón -->
 
 ---
 
 ## 2. 🔍 Bug de CSS Encontrado (D2)
-- **¿Qué fallaba?:** <!-- TODO: Describe qué propiedad o selector CSS fallaba -->
-- **Causa Raíz:** <!-- TODO: Explica por qué fallaba el diseño -->
-- **Solución Aplicada:** <!-- TODO: Explica qué regla CSS ajustaste -->
+- **¿Qué fallaba?:** <!-- Las propiedades display: flexer, align-item y cursor: pointing-hand eran incorrectas -->
+- **Causa Raíz:** <!-- Los valores utilizados no existían o estaban mal escritos, por lo que el navegador no los usaba -->
+- **Solución Aplicada:** <!-- Se cambiaron por display: flex, align-items: center y cursor: pointer. -->
 
 ---
 
 ## 3. 🔍 Bug de JavaScript Encontrado (D3)
-- **¿Qué fallaba?:** <!-- TODO: Describe qué comportamiento de JS no funcionaba -->
-- **Causa Raíz:** <!-- TODO: Explica por qué fallaba la lógica o el evento -->
-- **Solución Aplicada:** <!-- TODO: Explica qué líneas de código modificaste -->
+- **¿Qué fallaba?:** <!-- El cálculo del promedio era incorrecto, el selector de la segunda nota no encontraba el elemento y los valores no se convertían a números -->
+- **Causa Raíz:** <!-- Se utilizó una fórmula incorrecta, un ID inexistente (#nota_inexistente) y los valores de los inputs se obtenían como texto -->
+- **Solución Aplicada:** <!-- Se corrigió la fórmula a (a + b) / 2, se cambió el selector por #nota2, se utilizó Number() para convertir los valores y se corrigió textContnt por textContent. También se cambió el selector del botón por #btn-calcular -->
 
 ---
 
