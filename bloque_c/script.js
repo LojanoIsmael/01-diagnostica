@@ -4,7 +4,6 @@ const btnSaludar = document.querySelector('#btn-saludar')
 const btnLimpiar = document.querySelector('#btn-limpiar')
 const mensajeResultado = document.querySelector('#mensaje-resultado')
 
-// TODO: C3. Declara una función nombrada para procesar el saludo
 function generarSaludo() {
 
     const nombre = inputNombre.value;

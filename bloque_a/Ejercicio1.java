@@ -2,7 +2,7 @@ public class Ejercicio1 {
     public static void main(String[] args) {
         int edad = 16;
         double precio = 99.99;
-        String Materia = ProgramacionMovil;
+        String Materia = Programacion-Movil;
         boolean activo = true;
         System.out.println("Mi edad es " + edad );
         System.out.println(precio );
